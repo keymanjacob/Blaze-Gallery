@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: verdana;
+	background-color: black;
+	padding: 50px;	
+	background:black;
+}
+h1{ color: white;
+	text-align: center;
+	
+}
+.wrapper{
+	float: left;
+	background: #000;
+	width: 960px;
+	border: 1px solid #a1a1a1;
+	margin: 10px auto 10px auto;
+	height: auto;
+	z-index: 1;
+}
+.album1{
+	width: 720px;
+	border: 1px solid #a1a1a1;
+	margin: 5px;
+}
+.name1{
+	text-align: center;
+	width: 720px;
+	color: white;
+	border: 1px solid #a1a1a1;
+}
+.album2{
+	width: 720px;
+	border: 1px solid #a1a1a1;
+	margin: 5px;
+}
+.name2{
+	text-align: center;
+	width: 720px;
+	color: white;
+	border: 1px solid #a1a1a1;
+}
+.footer{
+	float: left;
+}

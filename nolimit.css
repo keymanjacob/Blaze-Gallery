@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: verdana;
+	background: #abc;
+	padding: 50px;
+
+}
+h1{
+	text-align: center;
+	border-bottom: 2px solid #009;
+	margin-bottom: 50px;
+}
+
+ul#navmanu, ul.sub1, ul.sub2{
+	list-style-type: none;
+	
+	font-size: 9pt;
+}
+ul#navmanu li{
+	width: 125px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+
+}
+ul#navmanu .sub1 li {
+	
+}
+
+ul#navmanu a{
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+
+}
+
+ul#navmanu .sub1 a {
+	margin-top: 3px;
+
+
+}
+
+ul#navmanu .sub2 a {
+	margin-left: 12px;
+}
+
+ul#navmanu li:hover > a {
+	background-color:  #CFC;
+
+}
+
+ul#navmanu li:hover a:hover {
+	background-color: #FF0;
+}
+
+ul#navmanu ul.sub1{
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+}
+
+ul#navmanu ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 126px;
+}
+
+ul#navmanu li:hover .sub1 {
+	display: block;
+
+}
+
+ul#navmanu .sub1 li:hover .sub2 {
+	display: block;
+}
+
+.darrow{
+	font-size: 6pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+.rarrow{
+	font-size: 6pt;
+	position: absolute;
+	top: 7px;
+	right: 4px;
+
+}
+
+
+
